@@ -1,0 +1,566 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('http://fonts.cdnfonts.com/css/nexa-bold');
+
+@import url(//db.onlinewebfonts.com/c/1a0f9c82ae37cc35dc3c8e6c81ea95a4?family=Larsseit);
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navigation{
+  height: 11vh;
+  width: 100%;
+  background-color: black;
+  position:fixed;
+  top:0;
+  width:100%;
+}
+nav{
+  background-color: black;
+  height:100%;
+  padding-left: 10%;
+  color: whitesmoke;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 10%;
+  
+}
+.logo{
+  display: flex;
+  
+}
+.logo img{
+  height: 100%;
+}
+.logo p{
+  font-family: 'Poppins',sans-serif;
+  font-weight: bold;
+  padding-top:25px;
+}
+
+li{
+  list-style: none;
+}
+li a {
+  text-decoration: none;
+  color: whitesmoke;
+  font-family: 'Poppins',sans-serif;
+}
+.nonbuttons{
+  display: flex;
+  width: 50%;
+  justify-content: space-around;
+  padding: 25px;
+}
+.nonbuttons li{
+  padding-left: 30px;
+}
+
+.buttons{
+  display: flex;
+  width: 50%;
+  margin-left: 20px;
+
+}
+.nav-content{
+  display: flex;
+  width: 60%;
+}
+
+.Login{
+ padding: 10px 20px;
+ margin-top: 20px;
+ margin-left: 30px;
+ background-color: black;
+ color: white;
+ border-color:#14D2A6 ;
+}
+.Register a{
+ color: black;
+
+}
+.Register{
+  padding: 10px 20px;
+  margin-top: 20px;
+  background-color:#14D2A6 ;
+  color: black;
+  border-color:transparent;
+  margin-left: 20px;
+  font-weight: bold;
+
+}
+
+.Register:hover{
+  opacity:0.5;
+  transition: all;
+}
+.Login:hover{
+  opacity:0.5;
+  transition: all;
+}
+
+
+.dropdown{
+  display: none;
+}
+
+li .active{
+  color:#19D2A6;
+  text-decoration-color:#19D2A6 ;
+  text-decoration-style: solid;
+  text-decoration: underline;
+  text: decoration thickness 3px;
+   }
+
+
+   .active a{
+    color:#19D2A6;
+    text-decoration: underline;
+    text-decoration-thickness:3px;
+  
+  }
+
+.slide1{
+  height: 100vh;
+  background-color: black;
+  padding-left: 10%;
+  padding-right: 10%;
+  color: white;
+  display: grid;
+  grid-template-columns: 5fr 4fr;
+  grid-template-rows: 1fr 2fr 1fr 2fr 1fr;
+  margin-top: 11vh;
+  width: 100%;
+
+}
+.topic p2{
+  font-family: 'Poppins',sans-serif;
+  padding-top: 4vh;
+  font-size: 1.5vw;
+  text-decoration: underline;
+  text-decoration-color: white;
+  text-underline-offset: 2px;
+}
+.topic p{
+  font-family: 'Poppins',sans-serif;
+  padding-top: 4vh;
+  font-size: 1.5vw;
+  text-decoration: underline;
+  text-decoration-color: #14D2A6;
+  text-underline-offset: 4px;
+  
+}
+.topic span{
+  text-decoration: none;
+  font-family: 'Poppins',sans-serif;
+  padding-top: 4vh;
+  font-size: 1.5vw;
+  
+}
+.topic{
+  display: flex;
+  
+}
+.heading{
+  grid-row-start: 2;
+  font-size: 4vw;
+  margin-top: 3vh;
+  font-family: 'Nexa',sans-serif;
+  font-weight: bold;
+
+}
+.registerbutton{
+  grid-row-start: 4;
+  padding-top: 7vh;
+  margin:0 ;
+}
+.textforslide1{
+  grid-row-start: 3;
+  font-size: 1.3em;
+  font-family: 'Poppins',sans-serif;
+}
+.imageforslide1{
+  grid-column-start: 2;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  margin-left: auto;
+  margin-top: 7vh;
+  
+}
+.registerbutton button a{
+  text-decoration: none;
+  color: black;
+}
+.registerbutton button{
+  background-color: #14D2A6;
+  color: black;
+  padding: 10px 35px;
+  font-family: 'Nexa',sans-serif;
+  font-size: 1.4em;
+  font-weight: bold;
+  text-decoration: none;
+
+}
+.registerbutton:hover{
+  opacity: 0.6;
+}
+
+.socialmediabuttons{
+  grid-column-start: 2;
+  grid-row-start: 4;
+ 
+}
+
+.icons{
+  padding-left: 60%;
+  padding-top: 20px;
+  
+}
+.icons i{
+  padding-left:0;
+  font-size:20px;
+  margin-left: 20px;
+}
+
+.icons a{
+  color: white;
+
+}
+
+  
+
+.fab,.fas{-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased;display:var(--fa-display,inline-block);font-style:normal;font-variant:normal;line-height:1;text-rendering:auto;}
+.fa-search:before{content:"\f002";}
+.fab{font-family:"Font Awesome 6 Brands";font-weight:400;}
+.fa-facebook:before{content:"\f09a";}
+.fa-instagram:before{content:"\f16d";}
+.fa-linkedin:before{content:"\f08c";}
+.fa-twitter:before{content:"\f099";}
+.fas{font-family:"Font Awesome 6 Free";font-weight:900;}
+
+
+.threelines {
+  width: 100%;
+  height: auto;
+  display: inline-block;
+  text-align: center;
+  background-color: black;
+}
+
+.dropdownbutton{
+  display: none;
+}
+
+.title2{
+  color: white;
+  font-family: 'Nexa',sans-serif;
+  font-size: 2.4vw;
+  font-weight: bold;
+  width: 100%;
+  background-color: black;
+  padding-top: 7vh;
+  padding-left: 10%;
+  padding-right: 10%;
+
+}
+
+.slide2{
+height:110vh;
+background-color:black;
+color: white;
+}
+
+.slide2grid{
+  height: 100%;
+  background-color: black;
+  padding:7vh 10%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 50% 50%;
+  
+}
+
+.t{
+  background-color: rgba(255, 255, 255, 0.07);
+  margin:3vh 15vh 10vh 0vh;
+  display: flex;
+  flex-direction: column;
+
+}
+.t img{
+  height:50%;
+  margin-top:10%;
+}
+.t slide2text{
+  font-family:'Larsseit',sans-serif;
+  color: whitesmoke;
+  margin:10px 30px;
+  text-align: center;
+  font-size: 1.2vw;
+}
+
+.slide3{
+  background-color: white;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  padding:10px 10%;
+  height: 70vh;
+}
+.slide3text{
+  grid-column-start: 1;
+  height:fit-content;
+}
+.slide3image{
+  grid-column-start: 2;
+}
+.title3{
+  font-family: 'Nexa',sans-serif;
+  color: black;
+  font-size: 2em;
+  font-weight: bold;
+  width: 100%;
+  background-color: white;
+  margin-top: 30px;
+}
+
+.textdecoration button{
+  background-color: white;
+  border-color: #14D2A6;
+  border-left-width: 15px;
+  font-family: 'Poppins',sans-serif;
+  font-size: 1.7em;
+  color: black;
+  padding: 0 20px;
+  font-weight: bold;
+   
+}
+
+.textdecoration p{
+  font-family: 'Larsseit',sans-serif;
+  font-size: 1.7em;
+  color: black;
+  padding-left: 15px;
+}
+.textdecoration{
+  display: flex;
+  margin: 20px 0; 
+}
+
+
+
+@media screen and (max-width:1200px) {
+
+  .nav-content{
+    width:70%;
+  }
+  .slide1{
+    height: 100vh;
+    background-color: black;
+    padding-left: 3%;
+    padding-right: 10%;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr;
+    
+    margin-top: 11vh;
+  
+  }
+  
+  nav{
+    background-color: black;
+    height:100%;
+    padding-left: 3%;
+    color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 0;
+    
+  }
+  
+  .slide3{
+    background-color: white;
+    height: 80vh;
+    padding: 0 3%;
+    color: black;
+    display: grid;
+    grid-template-columns: 65% 35%;
+    grid-template-rows: 1fr 2fr;
+  }
+  .slide2grid{
+    height: 100%;
+    background-color: black;
+    padding:7vh 3%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 50% 50%;
+    
+  }
+  .icons{
+    padding-left: 10%;
+    padding-top: 70px;
+    
+    margin: auto;
+    
+  }
+  
+  .t{
+    background-color: rgba(255, 255, 255, 0.07);
+    margin:3vh 1vh 10vh 0vh;
+    display: flex;
+    flex-direction: column;
+  
+  }
+  .t slide2text{
+    font-family:'Larsseit',sans-serif;
+    color: whitesmoke;
+    margin:10px 30px;
+    text-align: center;
+    font-size: 1.8vw;
+  }
+  .textdecoration p{
+    margin-left: 30px;
+    font-size: 1.4em;
+    color: black;
+    font-family: 'Larsseit',sans-serif;
+    padding-top: 20px;
+  }
+  
+  .threelines {
+    display: none;
+  }
+  .imageforslide1{
+    grid-column-start: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    
+    margin-top: 7vh;
+    height: 30vh;
+    
+  }
+  .dropdownbutton{
+    display: none;
+  }
+  }
+  
+  
+  @media screen and (max-width:830px) {
+  .logo p{
+    display: none;
+  }
+  .nav-content{
+    display: none;
+  }
+  
+  .slide1{
+    display: block;
+    height: fit-content;
+   
+  }
+  .imageforslide1{
+    margin:10px;
+    height: fit-content;
+    width: 70%;
+  }
+  .topic {
+    font-family: 'Poppins',sans-serif;
+    padding-top: 4vh;
+    font-size: 4vw;
+   
+  }
+  .heading{
+    grid-row-start: 2;
+    font-size: 9vw;
+    margin-top: 3vh;
+    font-family: 'Nexa',sans-serif;
+    font-weight: bold;
+  
+  }
+  
+  .slide2grid{
+    display: block;
+    height: fit-content;
+   
+  }
+  .t{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  .t img{
+    width: 80%;
+  }
+  
+  .t slide2text{
+    font-size: 1.1em;
+    padding-right: 10%;
+    padding-top:30px;
+  }
+  .title2{
+    font-size: 1.3em;
+  }
+  
+  .slide3{
+    display: block;
+    height: fit-content;
+  }
+  .title3{
+    font-size: 1.4em;
+  }
+  .slide3image{
+    margin-top: 30px;
+    display: block;
+    text-align: center;
+  }
+  .textdecoration {
+    justify-content: left;
+  }
+  .dropdownbutton{
+    display: block;
+    width: fit-content;
+    padding-right: 20px;
+    padding-top: 15px;
+    width: 100%;
+    
+    
+  }
+  .dropdownbutton img{
+    float: right;
+    background: black;
+    border-color: transparent;
+
+    
+  }
+  .dropdowncontent{
+    display: none;
+  }
+.dropdownbutton:hover .dropdowncontent{
+  
+  
+   display:block;
+   flex-direction: column;
+   width: 100%;
+   background-color:white; ;
+   margin-top: 3vh;
+   height: 50vh;
+   
+   
+   }
+ 
+   .dropdownbutton:hover .dropdowncontent li a{
+    font-size: 2em;
+    color: black;
+    height: fit-content;
+    font-weight: bold;
+    padding-left: 25%;
+     
+   
+}
+  
+  
+  }
+
+
